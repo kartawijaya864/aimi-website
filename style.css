@@ -403,3 +403,68 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+.hero {
+  min-height: 100vh;
+  background-image: url("c:\Users\ASUS\Downloads\pexels-emily-ranquist-493228-1205651.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+/* OVERLAY AGAR TEKS JELAS */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* KONTEN HERO */
+.hero-content {
+  position: relative;
+  max-width: 650px;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 30px;
+  background: #d4af37;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b8962e;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn.outline:hover {
+  background: #fff;
+  color: #000;
+}
