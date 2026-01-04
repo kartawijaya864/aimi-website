@@ -405,16 +405,18 @@ footer a {
 }
 .hero {
   min-height: 100vh;
-  background-image: url("c:\Users\ASUS\Downloads\pexels-emily-ranquist-493228-1205651.jpg");
+  background:
+    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+    url("https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1920&q=80https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1920&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
 
   display: flex;
   align-items: center;
   padding: 80px;
 }
+
 
 /* OVERLAY AGAR TEKS JELAS */
 .hero::before {
